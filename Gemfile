@@ -10,6 +10,8 @@ gem 'active_model_serializers', '~> 0.10.0.rc2'
 
 gem 'mailgun-ruby', '~>1.0.2', require: 'mailgun'
 
+gem 'rails_12factor'
+
 group :development, :test do
   gem 'spring'
   gem 'sqlite3', '1.3.11'
